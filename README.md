@@ -1,8 +1,10 @@
 # [docker-jsonnet](https://github.com/obitech/docker-jsonnet)
 
-A simple Docker container to run [jsonnet](https://jsonnet.org/).
+An Alpine based Docker image to run [jsonnet](https://jsonnet.org/). 
 
-# Run it
+Needs about 328MB on disk.
+
+## Run it
 Try it out with: 
 ```bash
 $ docker run obitech/jsonnet -e '{ x: 1 , y: self.x + 1 } { x: 10 }'
